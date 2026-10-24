@@ -2,6 +2,19 @@
 
 Mínimos del brief: 10 obras por colección FIJA · 6 en TEXTURES (ya cumplidos). Máximos: 15 fijas · 12 TEXTURES.
 
+Las obras existentes **ya cuentan** y están en este repo por carpetas (NO regenerar):
+
+| colección | carpeta | existentes (cuentan) | faltan p/ mínimo | a generar aquí |
+|---|---|---|---|---|
+| ECLECTIC | `eclectic/` | 5 (ids 1–5) | 5 | 5 obligatorias |
+| NORDIC | `nordic/` | 5 (ids 1–5) | 5 | 5 obligatorias |
+| BAUHAUS | `bauhaus/` | 5 (ids 1–5) | 5 | 5 obligatorias |
+| ETHEREUM | `ethereum/` | 4 (ids 1–4) | 6 | 6 obligatorias |
+| POP ART | `popart/` | 4 (ids 1–4) | 6 | 6 obligatorias |
+| ABSTRACT DIMENSION | `dimension/` | 3 (ids 1–3) | 7 | 7 obligatorias |
+| TEXTURES | `textures/` | 6 (obras web) | 0 — mínimo cumplido | 4 OPCIONALES (hasta 12) |
+| **Total** | | **32** | | **34 + 4 opcionales** |
+
 Marca con ✔ y añade el commit cuando subas cada lote. El chat principal solo integra lo que esté ✔ **y exista como archivo**.
 
 | obra | colección | nombre | tamaño | ratio | precio | edición | estado |

@@ -1,7 +1,9 @@
 # LIENZOS — Especificaciones de generación · Gazeta Studio
 
 **Objetivo del brief:** colecciones fijas **mínimo 10, máximo 15** obras · colección limitada TEXTURES **mínimo 6, máximo 12**.
-El lote de este repo alcanza los **mínimos** (10 fijas / TEXTURES se queda en 6 salvo las 4 opcionales). Ampliaciones hasta el máximo: ver sección final.
+Las **32 obras ya publicadas en la web cuentan** para los mínimos: están en este repo, una carpeta por colección (`eclectic/`, `nordic/`, `bauhaus/`, `ethereum/`, `popart/`, `dimension/`, `textures/`). **NO se regeneran** — sirven de referencia de estilo y fijan la numeración.
+
+Lo que falta para los mínimos son **34 obras obligatorias** (+4 opcionales de TEXTURES hacia su máximo de 12). Ampliaciones hasta los máximos: ver sección final.
 Este repositorio NO se despliega: es la fábrica de arte fuente. Las imágenes `art-*.jpg` que se suban aquí las integrará después el chat principal en gazeta-studio (recortes de impresión, Stripe, web).
 
 ## Reglas técnicas (OBLIGATORIAS en cada imagen)
@@ -15,32 +17,32 @@ Este repositorio NO se despliega: es la fábrica de arte fuente. Las imágenes `
 
 ## Flujo de trabajo del chat generador
 1. Lee `ESTADO.md` y elige el siguiente lote de obras ☐ (respeta el orden: dimension → ethereum → popart → eclectic → nordic → bauhaus; TEXTURES va al final y es OPCIONAL — su mínimo de 6 ya está cumplido).
-2. Genera las imágenes (máx. 10) siguiendo el prompt EXACTO de cada obra + el estilo de su colección + las reglas técnicas. Puedes usar como imagen de referencia la de su colección en `referencias/` para clavar el estilo.
+2. Genera las imágenes (máx. 10) siguiendo el prompt EXACTO de cada obra + el estilo de su colección + las reglas técnicas. Usa como referencia de estilo cualquiera de las obras existentes en la **carpeta de su colección** (p. ej. `popart/art-popart-1.jpg`) para clavar el look.
 3. `git add art-*.jpg ESTADO.md` → marca ✔ en la tabla → commit `batch: <ids del lote>` → push.
 4. Repite en el siguiente turno hasta agotar la tabla. Al terminar: commit final `catalogo completo`.
 
 ## Estilo por colección
 
 ### ECLECTIC — 5 actuales → objetivo 10 (mínimo del brief; máximo 15) (**faltan 5**)
-Pintura contemporánea vibrante y maximalista: coral, ocre, verde azulado y vino; pincelada expresiva; sujetos con vida (mercados, azoteas, bodegones, figuras). Referencia: referencias/eclectic.jpg
+Pintura contemporánea vibrante y maximalista: coral, ocre, verde azulado y vino; pincelada expresiva; sujetos con vida (mercados, azoteas, bodegones, figuras). Referencias de estilo: carpeta eclectic/ de este repo
 
 ### NORDIC — 5 actuales → objetivo 10 (mínimo del brief; máximo 15) (**faltan 5**)
-Minimalismo escandinavo sereno: azul polvo, gris perla, crema; mucho espacio negativo; lagos, abedules, dunas, niebla. Referencia: referencias/nordic.jpg
+Minimalismo escandinavo sereno: azul polvo, gris perla, crema; mucho espacio negativo; lagos, abedules, dunas, niebla. Referencias de estilo: carpeta nordic/ de este repo
 
 ### BAUHAUS — 5 actuales → objetivo 10 (mínimo del brief; máximo 15) (**faltan 5**)
-Modernismo geométrico de 1920s: rojo, azul y amarillo primarios + negro sobre crema; círculos, arcos, retículas; color plano preciso. Referencia: referencias/bauhaus.jpg
+Modernismo geométrico de 1920s: rojo, azul y amarillo primarios + negro sobre crema; círculos, arcos, retículas; color plano preciso. Referencias de estilo: carpeta bauhaus/ de este repo
 
 ### ETHEREUM — 4 actuales → objetivo 10 (mínimo del brief; máximo 15) (**faltan 6**)
-Futurista oscuro y lujoso: vidrio, humo y nebulosas sobre negro; vetas de luz dorada, turquesa o violeta; brillo y profundidad. Referencia: referencias/ethereum.jpg
+Futurista oscuro y lujoso: vidrio, humo y nebulosas sobre negro; vetas de luz dorada, turquesa o violeta; brillo y profundidad. Referencias de estilo: carpeta ethereum/ de este repo
 
 ### POP ART — 4 actuales → objetivo 10 (mínimo del brief; máximo 15) (**faltan 6**)
-Cómic pop: puntos de trama (halftone), contornos negros gruesos, colores planos vivos (fucsia, amarillo, cian, rojo). SIN letras ni onomatopeyas. Referencia: referencias/popart.jpg
+Cómic pop: puntos de trama (halftone), contornos negros gruesos, colores planos vivos (fucsia, amarillo, cian, rojo). SIN letras ni onomatopeyas. Referencias de estilo: carpeta popart/ de este repo
 
 ### ABSTRACT DIMENSION — 3 actuales → objetivo 10 (mínimo del brief; máximo 15) (**faltan 7**)
-Relieve abstracto en capas: papel rasgado o yeso tallado con sombras reales suaves; salvia, crema, terracota y burdeos. Referencia: referencias/dimension.jpg
+Relieve abstracto en capas: papel rasgado o yeso tallado con sombras reales suaves; salvia, crema, terracota y burdeos. Referencias de estilo: carpeta dimension/ de este repo
 
 ### TEXTURES (edición limitada) — 6 actuales → **mínimo 6 ya cumplido** (máximo 12). Las 4 obras listadas son ampliación OPCIONAL, prioridad baja.
-Minimalismo táctil e íntimo del estudio: burdeos/vino + arena y crema; empaste visible, calma, composiciones sencillas. Son EDICIÓN LIMITADA de 20: merecen el doble de cuidado. Referencia: referencias/textures.jpg
+Minimalismo táctil e íntimo del estudio: burdeos/vino + arena y crema; empaste visible, calma, composiciones sencillas. Son EDICIÓN LIMITADA de 20: merecen el doble de cuidado. Referencias de estilo: carpeta textures/ de este repo
 
 
 ## Prompts unitarios (usar TEXTUALMENTE, añadiendo solo lo que indiquen las reglas)
