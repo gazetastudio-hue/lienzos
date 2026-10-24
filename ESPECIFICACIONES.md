@@ -202,7 +202,7 @@ Cada entrada incluye el uso final que dará el chat principal (tamaño cliente, 
 > Abstract dimensional artwork of cascading geometric paper shards falling diagonally in charcoal, sage and burgundy with real soft shadows, dynamic relief composition, artwork only, flat frontal view, no text
 
 
-### TEXTURES (edición limitada)
+### TEXTURES (edición limitada) — AMPLIACIÓN OPCIONAL (mín. 6 ya cumplido, máx. 12)
 
 **`textures-7` — «Vena»** · lienzo 100 × 150 cm (ratio 2:3) · 289 € · edición limitada de 20 numeradas · gran formato: sí
 
