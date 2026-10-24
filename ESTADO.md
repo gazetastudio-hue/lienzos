@@ -1,5 +1,7 @@
 # ESTADO DE GENERACIÓN — catálogo objetivo 2026-T4
 
+Mínimos del brief: 10 obras por colección FIJA · 6 en TEXTURES (ya cumplidos). Máximos: 15 fijas · 12 TEXTURES.
+
 Marca con ✔ y añade el commit cuando subas cada lote. El chat principal solo integra lo que esté ✔ **y exista como archivo**.
 
 | obra | colección | nombre | tamaño | ratio | precio | edición | estado |
@@ -38,9 +40,9 @@ Marca con ✔ y añade el commit cuando subas cada lote. El chat principal solo 
 | `dimension-8.jpg` | ABSTRACT DIMENSION | Marea de papel | 150 × 75 cm | 1:2 | 199 € | 100 (abierta) | ☐ pendiente |
 | `dimension-9.jpg` | ABSTRACT DIMENSION | Umbral | 60 × 90 cm | 2:3 | 139 € | 100 (abierta) | ☐ pendiente |
 | `dimension-10.jpg` | ABSTRACT DIMENSION | Vertedera | 165 × 120 cm | 8:11 | 199 € | 100 (abierta) | ☐ pendiente |
-| `textures-7.jpg` | TEXTURES (edición limitada) | Vena | 100 × 150 cm | 2:3 | 289 € | 20 (limitada) | ☐ pendiente |
-| `textures-8.jpg` | TEXTURES (edición limitada) | Ceniza | 140 × 100 cm | 5:7 | 259 € | 20 (limitada) | ☐ pendiente |
-| `textures-9.jpg` | TEXTURES (edición limitada) | Atardecer en yeso | 165 × 120 cm | 8:11 | 299 € | 20 (limitada) | ☐ pendiente |
-| `textures-10.jpg` | TEXTURES (edición limitada) | Piel | 60 × 90 cm | 2:3 | 189 € | 20 (limitada) | ☐ pendiente |
+| `textures-7.jpg` | TEXTURES (edición limitada) | Vena | 100 × 150 cm | 2:3 | 289 € | 20 (limitada) | ☐ OPCIONAL (prioridad baja) |
+| `textures-8.jpg` | TEXTURES (edición limitada) | Ceniza | 140 × 100 cm | 5:7 | 259 € | 20 (limitada) | ☐ OPCIONAL (prioridad baja) |
+| `textures-9.jpg` | TEXTURES (edición limitada) | Atardecer en yeso | 165 × 120 cm | 8:11 | 299 € | 20 (limitada) | ☐ OPCIONAL (prioridad baja) |
+| `textures-10.jpg` | TEXTURES (edición limitada) | Piel | 60 × 90 cm | 2:3 | 189 € | 20 (limitada) | ☐ OPCIONAL (prioridad baja) |
 
-**Total pendiente: 38 obras.** Al terminar todas, avisa al chat principal para la integración (recortes print-*, Stripe, web).
+**Obligatorias: 34** (llegan a los mínimos) **+ 4 opcionales TEXTURES** (ampliación hacia el máx. de 12; solo si sobran turnos). Al terminar todas, avisa al chat principal para la integración (recortes print-*, Stripe, web).

@@ -1,6 +1,7 @@
 # LIENZOS — Especificaciones de generación · Gazeta Studio
 
-**Objetivo:** completar el catálogo a 10 obras por colección (mínimo del brief: 10–15 fijas, 6–12 limitadas).
+**Objetivo del brief:** colecciones fijas **mínimo 10, máximo 15** obras · colección limitada TEXTURES **mínimo 6, máximo 12**.
+El lote de este repo alcanza los **mínimos** (10 fijas / TEXTURES se queda en 6 salvo las 4 opcionales). Ampliaciones hasta el máximo: ver sección final.
 Este repositorio NO se despliega: es la fábrica de arte fuente. Las imágenes `art-*.jpg` que se suban aquí las integrará después el chat principal en gazeta-studio (recortes de impresión, Stripe, web).
 
 ## Reglas técnicas (OBLIGATORIAS en cada imagen)
@@ -13,32 +14,32 @@ Este repositorio NO se despliega: es la fábrica de arte fuente. Las imágenes `
 7. **Ritmo:** máximo 10 imágenes por turno (límite de la plataforma). Genera, sube, marca en ESTADO.md y empuja. Continúa en el siguiente turno con las siguientes 10.
 
 ## Flujo de trabajo del chat generador
-1. Lee `ESTADO.md` y elige el siguiente lote de obras ☐ (respeta el orden: primero completar colecciones más vacías: dimension → ethereum → popart → textures → eclectic/nordic/bauhaus).
+1. Lee `ESTADO.md` y elige el siguiente lote de obras ☐ (respeta el orden: dimension → ethereum → popart → eclectic → nordic → bauhaus; TEXTURES va al final y es OPCIONAL — su mínimo de 6 ya está cumplido).
 2. Genera las imágenes (máx. 10) siguiendo el prompt EXACTO de cada obra + el estilo de su colección + las reglas técnicas. Puedes usar como imagen de referencia la de su colección en `referencias/` para clavar el estilo.
 3. `git add art-*.jpg ESTADO.md` → marca ✔ en la tabla → commit `batch: <ids del lote>` → push.
 4. Repite en el siguiente turno hasta agotar la tabla. Al terminar: commit final `catalogo completo`.
 
 ## Estilo por colección
 
-### ECLECTIC — 5 actuales → objetivo 10 (**faltan 5**)
+### ECLECTIC — 5 actuales → objetivo 10 (mínimo del brief; máximo 15) (**faltan 5**)
 Pintura contemporánea vibrante y maximalista: coral, ocre, verde azulado y vino; pincelada expresiva; sujetos con vida (mercados, azoteas, bodegones, figuras). Referencia: referencias/eclectic.jpg
 
-### NORDIC — 5 actuales → objetivo 10 (**faltan 5**)
+### NORDIC — 5 actuales → objetivo 10 (mínimo del brief; máximo 15) (**faltan 5**)
 Minimalismo escandinavo sereno: azul polvo, gris perla, crema; mucho espacio negativo; lagos, abedules, dunas, niebla. Referencia: referencias/nordic.jpg
 
-### BAUHAUS — 5 actuales → objetivo 10 (**faltan 5**)
+### BAUHAUS — 5 actuales → objetivo 10 (mínimo del brief; máximo 15) (**faltan 5**)
 Modernismo geométrico de 1920s: rojo, azul y amarillo primarios + negro sobre crema; círculos, arcos, retículas; color plano preciso. Referencia: referencias/bauhaus.jpg
 
-### ETHEREUM — 4 actuales → objetivo 10 (**faltan 6**)
+### ETHEREUM — 4 actuales → objetivo 10 (mínimo del brief; máximo 15) (**faltan 6**)
 Futurista oscuro y lujoso: vidrio, humo y nebulosas sobre negro; vetas de luz dorada, turquesa o violeta; brillo y profundidad. Referencia: referencias/ethereum.jpg
 
-### POP ART — 4 actuales → objetivo 10 (**faltan 6**)
+### POP ART — 4 actuales → objetivo 10 (mínimo del brief; máximo 15) (**faltan 6**)
 Cómic pop: puntos de trama (halftone), contornos negros gruesos, colores planos vivos (fucsia, amarillo, cian, rojo). SIN letras ni onomatopeyas. Referencia: referencias/popart.jpg
 
-### ABSTRACT DIMENSION — 3 actuales → objetivo 10 (**faltan 7**)
+### ABSTRACT DIMENSION — 3 actuales → objetivo 10 (mínimo del brief; máximo 15) (**faltan 7**)
 Relieve abstracto en capas: papel rasgado o yeso tallado con sombras reales suaves; salvia, crema, terracota y burdeos. Referencia: referencias/dimension.jpg
 
-### TEXTURES (edición limitada) — 6 actuales → objetivo 10 (**faltan 4**)
+### TEXTURES (edición limitada) — 6 actuales → **mínimo 6 ya cumplido** (máximo 12). Las 4 obras listadas son ampliación OPCIONAL, prioridad baja.
 Minimalismo táctil e íntimo del estudio: burdeos/vino + arena y crema; empaste visible, calma, composiciones sencillas. Son EDICIÓN LIMITADA de 20: merecen el doble de cuidado. Referencia: referencias/textures.jpg
 
 
@@ -218,3 +219,12 @@ Cada entrada incluye el uso final que dará el chat principal (tamaño cliente, 
 **`textures-10` — «Piel»** · lienzo 60 × 90 cm (ratio 2:3) · 189 € · edición limitada de 20 numeradas · gran formato: no
 
 > Intimate textured minimal painting of close-up canvas skin in warm cream with dense wine-colored palette-knife strokes at the lower third, tactile and quiet, artwork only, flat frontal view, no text
+
+
+---
+
+## Ampliaciones futuras (hasta los máximos del brief)
+
+- Colecciones fijas: hasta **15** obras cada una. Ids continuos (`eclectic-11`, `nordic-11`, …) con prompts nuevos que sigan el estilo de su colección y las reglas técnicas. Registrarlas aquí y en ESTADO.md antes de generarlas.
+- TEXTURES: hasta **12** obras (`textures-11`, `textures-12`, …). Son edición limitada de 20: mismo cuidado.
+- No ampliar sin confirmación del chat principal (precios y tamaños se deciden allí).
