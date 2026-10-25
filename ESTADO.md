@@ -20,16 +20,16 @@ Marca con ✔ y añade el commit cuando subas cada lote. El chat principal solo 
 | obra | colección | nombre | tamaño | ratio | precio | edición | estado |
 |---|---|---|---|---|---|---|---|
 | `eclectic-6.jpg` | ECLECTIC | Mercado de flores | 140 × 100 cm | 5:7 | 179 € | 100 (abierta) | ✔ generada |
-| `eclectic-7.jpg` | ECLECTIC | La cocina roja | 50 × 40 cm | 4:5 | 119 € | 100 (abierta) | ☐ pendiente |
-| `eclectic-8.jpg` | ECLECTIC | Danza de sombrillas | 100 × 150 cm | 2:3 | 199 € | 100 (abierta) | ☐ pendiente |
-| `eclectic-9.jpg` | ECLECTIC | Jardín nocturno | 55 × 40 cm | 8:11 | 89 € | 100 (abierta) | ☐ pendiente |
-| `eclectic-10.jpg` | ECLECTIC | El coleccionista | 150 × 75 cm | 1:2 | 229 € | 100 (abierta) | ☐ pendiente |
-| `nordic-6.jpg` | NORDIC | Marea baja | 140 × 100 cm | 5:7 | 139 € | 100 (abierta) | ☐ pendiente |
-| `nordic-7.jpg` | NORDIC | Hielo | 50 × 40 cm | 4:5 | 79 € | 100 (abierta) | ☐ pendiente |
-| `nordic-8.jpg` | NORDIC | Campo de centeno | 100 × 150 cm | 2:3 | 149 € | 100 (abierta) | ☐ pendiente |
-| `nordic-9.jpg` | NORDIC | Primer tren | 55 × 40 cm | 8:11 | 79 € | 100 (abierta) | ☐ pendiente |
+| `eclectic-7.jpg` | ECLECTIC | La cocina roja | 50 × 40 cm | 4:5 | 119 € | 100 (abierta) | ✔ generada |
+| `eclectic-8.jpg` | ECLECTIC | Danza de sombrillas | 100 × 150 cm | 2:3 | 199 € | 100 (abierta) | ✔ generada |
+| `eclectic-9.jpg` | ECLECTIC | Jardín nocturno | 55 × 40 cm | 8:11 | 89 € | 100 (abierta) | ✔ generada |
+| `eclectic-10.jpg` | ECLECTIC | El coleccionista | 150 × 75 cm | 1:2 | 229 € | 100 (abierta) | ✔ generada |
+| `nordic-6.jpg` | NORDIC | Marea baja | 140 × 100 cm | 5:7 | 139 € | 100 (abierta) | ✔ generada |
+| `nordic-7.jpg` | NORDIC | Hielo | 50 × 40 cm | 4:5 | 79 € | 100 (abierta) | ✔ generada |
+| `nordic-8.jpg` | NORDIC | Campo de centeno | 100 × 150 cm | 2:3 | 149 € | 100 (abierta) | ✔ generada |
+| `nordic-9.jpg` | NORDIC | Primer tren | 55 × 40 cm | 8:11 | 79 € | 100 (abierta) | ✔ generada |
 | `nordic-10.jpg` | NORDIC | Ventana al fiordo | 150 × 75 cm | 1:2 | 199 € | 100 (abierta) | ☐ pendiente |
-| `bauhaus-6.jpg` | BAUHAUS | Contracomposición | 100 × 150 cm | 2:3 | 189 € | 100 (abierta) | ☐ pendiente |
+| `bauhaus-6.jpg` | BAUHAUS | Contracomposición | 100 × 150 cm | 2:3 | 189 € | 100 (abierta) | ✔ generada |
 | `bauhaus-7.jpg` | BAUHAUS | Tres mástiles | 140 × 100 cm | 5:7 | 169 € | 100 (abierta) | ☐ pendiente |
 | `bauhaus-8.jpg` | BAUHAUS | Círculo roto | 50 × 40 cm | 4:5 | 99 € | 100 (abierta) | ☐ pendiente |
 | `bauhaus-9.jpg` | BAUHAUS | Escalera cromática | 55 × 40 cm | 8:11 | 89 € | 100 (abierta) | ☐ pendiente |
@@ -69,3 +69,11 @@ Marca con ✔ y añade el commit cuando subas cada lote. El chat principal solo 
 - Resolución: máximo disponible del generador por petición (lado corto ≈ 850–930 px). Los ratios se piden explícitamente y quedan a ±4 % del ratio comercial (p. ej. 848 × 1264 ≈ 2:3), de modo que el recorte de impresión es mínimo.
 - Lote 1: `dimension-4` a `dimension-10` (7) + `ethereum-5` a `ethereum-7` (3) = 10 obras.
 - Lote 2: `ethereum-8` a `ethereum-10` (3) + `popart-5` a `popart-10` (6) + `eclectic-6` (1) = 10 obras. `popart-8` y `popart-9` venían con borde de papel crema del propio render: recortado al arte para que la obra llene el encuadre (regla 2).
+
+## Notas de generación
+
+- Resolución: máximo disponible del generador por petición (lado corto ≈ 850–930 px). Los ratios se piden explícitamente y quedan a ±4 % del ratio comercial (p. ej. 848 × 1264 ≈ 2:3), de modo que el recorte de impresión es mínimo.
+- Lote 1: `dimension-4` a `dimension-10` (7) + `ethereum-5` a `ethereum-7` (3) = 10 obras.
+- Lote 2: `ethereum-8` a `ethereum-10` (3) + `popart-5` a `popart-10` (6) + `eclectic-6` (1) = 10 obras. `popart-8` y `popart-9` venían con borde de papel crema del propio render: recortado al arte para que la obra llene el encuadre (regla 2).
+- Lote 3: `eclectic-7` a `eclectic-10` (4) + `nordic-6` a `nordic-9` (4) + `bauhaus-6` (1) = 9 obras válidas. Recortados al arte: `nordic-7` (marco de papel) y `eclectic-9` (borde de lienzo).
+- **`nordic-10` descartada**: el render salía como una ventana con marco y pared (mockup), lo que incumple la regla 2. Se regenera en el lote 4.
